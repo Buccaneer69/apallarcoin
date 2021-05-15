@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "apallarcoin";
-const char GENESIS_COINBASE_TX_HEX[] = "013c01ff0001c08f8af8ae5f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101cbd36533861a892dc50e0a90ec9e13b8956b4545b5bbb91628a79af10e1b4f49";
+const char GENESIS_COINBASE_TX_HEX[]                         = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -106,8 +106,10 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "18.190.158.204:16049",
-  "18.191.53.202:16049"
+  "3.142.122.103:16049",
+  "3.143.242.40:16049",
+  //"172.31.16.127:16049",
+  //"172.31.23.232:16049"
   //"your_seed_ip1.com:8080",
   //"your_seed_ip2.com:8080",
 };
