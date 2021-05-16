@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "apallarcoin";
-const char GENESIS_COINBASE_TX_HEX[]                         = "013c01ff0001c08f8af8ae5f029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210142579966f99119e8c7d44edbc2f17cead281e02d7259a6c37142ac173f513013";
+const char GENESIS_COINBASE_TX_HEX[]                         = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
